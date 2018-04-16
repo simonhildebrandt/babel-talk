@@ -1,0 +1,49 @@
+{
+  "name": "babel-talk",
+  "version": "1.0.0",
+  "description": "Examples of modern Babel",
+  "main": "index.js",
+  "scripts": {
+    "browserify": "browserify build/index.js -o public/index.js --standalone BabelTalk",
+    "babel": "babel --extensions '.tsx','.ts','.js' src -d build",
+    "test": "jest --no-cache",
+    "serve": "live-server ./public --entry-file=index.html",
+    "type": "tsc --noEmit src/index.tsx"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "jsx",
+      "json",
+      "ts",
+      "tsx"
+    ],
+    "transform": {
+      "^.+\\.(js|ts)x?$": "<rootDir>/node_modules/babel-jest"
+    }
+  },
+  "author": "Simon Hildebrandt",
+  "license": "ISC",
+  "dependencies": {
+    "npx": "^10.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.44",
+    "@babel/core": "^7.0.0-beta.44",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.44",
+    "@babel/preset-env": "^7.0.0-beta.44",
+    "@babel/preset-react": "^7.0.0-beta.44",
+    "@babel/preset-typescript": "^7.0.0-beta.44",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^22.4.3",
+    "babel-polyfill": "^6.26.0",
+    "browserify": "^16.2.0",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "jest": "^22.4.3",
+    "live-server": "^1.2.0",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "typescript": "^2.8.1"
+  }
+}
