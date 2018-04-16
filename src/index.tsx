@@ -14,7 +14,7 @@ export function start({message}) {
 // import ReactDOM from 'react-dom'
 //
 // export function App({message}) {
-//   return <div>Babel {message}</div>
+//   return <h1>Babel {message}</h1>
 // }
 //
 // export function start({message, ...others}) {

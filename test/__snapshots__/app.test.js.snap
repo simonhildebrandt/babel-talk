@@ -29,7 +29,7 @@ ShallowWrapper {
       "Babel ",
       "Finished!",
     ],
-    "type": "div",
+    "type": "h1",
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
@@ -47,7 +47,7 @@ ShallowWrapper {
         "Babel ",
         "Finished!",
       ],
-      "type": "div",
+      "type": "h1",
     },
   ],
   Symbol(enzyme.__options__): Object {
@@ -89,7 +89,7 @@ ShallowWrapper {
       "Babel ",
       "Finished!",
     ],
-    "type": "div",
+    "type": "h1",
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
@@ -107,7 +107,7 @@ ShallowWrapper {
         "Babel ",
         "Finished!",
       ],
-      "type": "div",
+      "type": "h1",
     },
   ],
   Symbol(enzyme.__options__): Object {
